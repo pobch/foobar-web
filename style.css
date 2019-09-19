@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -48,17 +49,38 @@ nav {
   overflow-y: auto;
 }
 
+.article-wrapper {
+  display: flex;
+  width: 1125px;
+  justify-content: space-between;
+}
+
 .article-small {
   display: flex;
-  width: 1000px;
+  width: 270px;
+  height: 74px;
 }
 
 .article-image {
   width: 62px;
   height: 62px;
-  overflow: hidden;
+  flex: 0 0 auto;
+  margin-right: 5px;
 }
 
 .article-image img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title-small {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
 }
