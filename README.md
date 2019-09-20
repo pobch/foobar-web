@@ -3,7 +3,6 @@ breakpoint: 768px
 
 TODO:
 
-1. cursor : pointer
-2. SEO
-3. Audit
-4. resize the images
+- cursor : pointer
+- write comments
+- write README
