@@ -103,12 +103,6 @@ header .desktop {
   overflow-y: auto;
 }
 
-.article-wrapper {
-  display: flex;
-  width: 1125px;
-  justify-content: space-between;
-}
-
 .article-small {
   display: flex;
   width: 270px;

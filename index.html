@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/6a4b1c4c4e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css" />
+    <!-- Required Core stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- Optional Theme stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <title>FooBar</title>
   </head>
   <body>
@@ -48,44 +52,54 @@
           commodo aliquet a at nulla.
         </p>
       </div>
-      <aside class="feature-article">
-        <div class="article-wrapper">
-          <article class="article-small">
-            <div class="article-image">
-              <img src="/images/place2.jpg" alt="Some place in somewhere" />
-            </div>
-            <div>
-              <div class="category">Places</div>
-              <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            </div>
-          </article>
-          <article class="article-small">
-            <div class="article-image">
-              <img src="/images/place3.jpg" alt="Some place in somewhere" />
-            </div>
-            <div>
-              <div class="category">Food</div>
-              <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            </div>
-          </article>
-          <article class="article-small">
-            <div class="article-image">
-              <img src="/images/place2.jpg" alt="Some place in somewhere" />
-            </div>
-            <div>
-              <div class="category">Places</div>
-              <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            </div>
-          </article>
-          <article class="article-small">
-            <div class="article-image">
-              <img src="/images/place3.jpg" alt="Some place in somewhere" />
-            </div>
-            <div>
-              <div class="category">Culture</div>
-              <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            </div>
-          </article>
+      <aside class="glide feature-article">  
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <article class="article-small">
+                <div class="article-image">
+                  <img src="/images/place2.jpg" alt="Some place in somewhere #1" />
+                </div>
+                <div>
+                  <div class="category">Places</div>
+                  <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </article>
+            </li>
+            <li class="glide__slide">
+              <article class="article-small">
+                <div class="article-image">
+                  <img src="/images/place.jpg" alt="Some place in somewhere #2" />
+                </div>
+                <div>
+                  <div class="category">Places</div>
+                  <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </article>
+            </li>
+            <li class="glide__slide">
+              <article class="article-small">
+                <div class="article-image">
+                  <img src="/images/title.jpg" alt="Some place in somewhere #3" />
+                </div>
+                <div>
+                  <div class="category">Places</div>
+                  <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </article>
+            </li>
+            <li class="glide__slide">
+              <article class="article-small">
+                <div class="article-image">
+                  <img src="/images/place3.jpg" alt="Some place in somewhere#4" />
+                </div>
+                <div>
+                  <div class="category">Places</div>
+                  <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </article>
+            </li>
+          </ul>
         </div>
       </aside>
     </div>
@@ -98,7 +112,7 @@
       </div>
       <div class="card-wrapper">
         <article class="article-card">
-          <img src="/images/place2.jpg" alt="Somewhere in the earth">
+          <img src="/images/place3.jpg" alt="Somewhere in the earth">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <div class="article-card-footer">
             <div class="category">Places</div>
@@ -108,7 +122,7 @@
           </div>
         </article>
         <article class="article-card">
-            <img src="/images/place3.jpg" alt="Somewhere in the earth #2">
+            <img src="/images/place2.jpg" alt="Somewhere in the earth #2">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <div class="article-card-footer">
             <div class="category">Places</div>
@@ -118,7 +132,7 @@
           </div>
         </article>
         <article class="article-card">
-            <img src="/images/place2.jpg" alt="Somewhere in the earth #3">
+            <img src="/images/place.jpg" alt="Somewhere in the earth #3">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <div class="article-card-footer">
             <div class="category">Culture</div>
@@ -128,7 +142,7 @@
           </div>
         </article>
         <article class="article-card desktop">
-            <img src="/images/place2.jpg" alt="Somewhere in the earth">
+            <img src="/images/title.jpg" alt="Somewhere in the earth #4">
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <div class="article-card-footer">
               <div class="category">Places</div>
@@ -138,7 +152,7 @@
             </div>
           </article>
           <article class="article-card desktop">
-              <img src="/images/place3.jpg" alt="Somewhere in the earth #2">
+              <img src="/images/place3.jpg" alt="Somewhere in the earth #5">
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <div class="article-card-footer">
               <div class="category">Places</div>
@@ -148,7 +162,7 @@
             </div>
           </article>
           <article class="article-card desktop">
-              <img src="/images/place2.jpg" alt="Somewhere in the earth #3">
+              <img src="/images/place2.jpg" alt="Somewhere in the earth #6">
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <div class="article-card-footer">
               <div class="category">Culture</div>
@@ -169,7 +183,8 @@
       </div>
     </footer>
 
-    <!-- Scripts -->      
+    <!-- Scripts -->   
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>   
     <script src="/script.js"></script>
   </body>
 </html>

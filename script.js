@@ -19,3 +19,41 @@ recommendedCategories.forEach(element => {
     e.target.classList.add('active')
   }
 })
+
+// Create carousel using glide.js
+new window.Glide('.glide', {
+  type: 'slider',
+  rewind: false,
+  peek: 0,
+  perView: 4,
+  breakpoints: {
+    1300: {
+      perView: 3,
+      peek: {
+        before: 0,
+        after: 50
+      }
+    },
+    1000: {
+      perView: 2,
+      peek: {
+        before: 0,
+        after: 50
+      }
+    },
+    700: {
+      perView: 1,
+      peek: {
+        before: 0,
+        after: 50
+      }
+    },
+    390: {
+      perView: 1,
+      peek: {
+        before: 0,
+        after: 30
+      }
+    }
+  }
+}).mount()
