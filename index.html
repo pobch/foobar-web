@@ -10,7 +10,7 @@
     <title>Explore</title>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Navbar on Mobile -->
     <header>
       <nav>
         <input type="checkbox" name="menu" id="menu" />
@@ -19,9 +19,13 @@
           <li>Home</li>
           <li>All</li>
           <li>Place</li>
+          <li>Food</li>
+          <li>Culture</li>
+          <li class="sign-in">Sign In</li>
+          <li class="sign-up">Sign Up</li>
         </ul>
       </nav>
-      <span>Foo</span>
+      <span><strong>Foo Bar</strong></span>
       <div><i class="fas fa-search"></i></div>
     </header>
 
@@ -31,45 +35,44 @@
         <h1>Explore the world</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu justo vitae velit
-          commodo aliquet a at nulla. Sed dictum eleifend tortor, posuere blandit nisi molestie et.
-          Cras eu suscipit libero, in faucibus felis.
+          commodo aliquet a at nulla.
         </p>
       </div>
       <aside class="feature-article">
         <div class="article-wrapper">
           <article class="article-small">
             <div class="article-image">
-              <img src="/images/place.jpg" alt="Some place in somewhere" />
+              <img src="/images/place2.jpg" alt="Some place in somewhere" />
             </div>
             <div>
-              <div class="category">Place</div>
+              <div class="category">Places</div>
               <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
           </article>
           <article class="article-small">
             <div class="article-image">
-              <img src="/images/place.jpg" alt="Some place in somewhere" />
+              <img src="/images/place3.jpg" alt="Some place in somewhere" />
             </div>
             <div>
-              <div class="category">Place</div>
+              <div class="category">Food</div>
               <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
           </article>
           <article class="article-small">
             <div class="article-image">
-              <img src="/images/place.jpg" alt="Some place in somewhere" />
+              <img src="/images/place2.jpg" alt="Some place in somewhere" />
             </div>
             <div>
-              <div class="category">Place</div>
+              <div class="category">Places</div>
               <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
           </article>
           <article class="article-small">
             <div class="article-image">
-              <img src="/images/place.jpg" alt="Some place in somewhere" />
+              <img src="/images/place3.jpg" alt="Some place in somewhere" />
             </div>
             <div>
-              <div class="category">Place</div>
+              <div class="category">Culture</div>
               <h3 class="title-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             </div>
           </article>
@@ -80,21 +83,79 @@
     <!-- Recommended articles -->
     <div class="recommended">
       <h2>Recommended</h2>
-      <div>All Place Food Culture</div>
+      <div class="recommended-category">
+        <span class="active">All</span><span>Place</span><span>Food</span><span>Culture</span>
+      </div>
       <div class="card-wrapper">
-        <article>
+        <article class="article-card">
+          <img src="/images/place2.jpg" alt="Somewhere in the earth">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <div>
-            <div>Places</div>
+          <div class="article-card-footer">
+            <div class="category">Places</div>
             <div>
-              15,371 921
+              <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
             </div>
           </div>
         </article>
+        <article class="article-card">
+            <img src="/images/place3.jpg" alt="Somewhere in the earth #2">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <div class="article-card-footer">
+            <div class="category">Places</div>
+            <div>
+              <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
+            </div>
+          </div>
+        </article>
+        <article class="article-card">
+            <img src="/images/place2.jpg" alt="Somewhere in the earth #3">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <div class="article-card-footer">
+            <div class="category">Culture</div>
+            <div>
+              <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
+            </div>
+          </div>
+        </article>
+        <article class="article-card desktop">
+            <img src="/images/place2.jpg" alt="Somewhere in the earth">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="article-card-footer">
+              <div class="category">Places</div>
+              <div>
+                <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
+              </div>
+            </div>
+          </article>
+          <article class="article-card desktop">
+              <img src="/images/place3.jpg" alt="Somewhere in the earth #2">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="article-card-footer">
+              <div class="category">Places</div>
+              <div>
+                <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
+              </div>
+            </div>
+          </article>
+          <article class="article-card desktop">
+              <img src="/images/place2.jpg" alt="Somewhere in the earth #3">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <div class="article-card-footer">
+              <div class="category">Culture</div>
+              <div>
+                <i class="fas fa-eye"></i> 15,371 <i class="fas fa-comment-alt"></i> 921
+              </div>
+            </div>
+          </article>
       </div>
+      <button type="button" class="seemore-btn">See more recommended articles</button>
     </div>
 
     <!-- Footer -->
+    <footer>
+      <h2>Foo Bar</h2>
+      <p>Perspiciatis unde omnis iste natus error sit voluptat accusantium laudantium, totam rem periam.</p>
+    </footer>
     <script src="/script.js"></script>
   </body>
 </html>

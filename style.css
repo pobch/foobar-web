@@ -12,13 +12,15 @@ h1 {
 }
 
 header {
+  background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 10px;
-}
-
-nav {
-  position: relative;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 
 #menu {
@@ -37,10 +39,38 @@ nav {
   display: none;
   position: absolute;
   top: 100%;
+  left: 0;
+  background-color: white;
+  width: 270px;
+  padding: 15px;
+  list-style: none;
 }
 
 #menu:checked ~ ul {
   display: block;
+}
+
+#menu ~ ul li {
+  padding: 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+#menu ~ ul li.sign-in {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+  background-color: #43d29e;
+  border-radius: 5px;
+  color: white;
+}
+
+#menu ~ ul li.sign-up {
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid #43d29e;
+  border-radius: 5px;
+  color: #43d29e;
 }
 
 .title-section {
@@ -105,4 +135,146 @@ nav {
   font-weight: normal;
   font-style: italic;
   color: white;
+}
+
+.recommended {
+  padding: 0 10px 20px;
+}
+
+.recommended h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+  color: #3a405b;
+}
+
+.recommended-category {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.recommended-category span {
+  padding: 0 10px 5px;
+  color: #a1a6bb;
+}
+
+.recommended-category span.active {
+  color: #304351;
+  font-style: italic;
+  border-bottom: 2px solid #43d29e;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-card {
+  width: 343px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.article-card.desktop {
+  display: none;
+}
+
+.article-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.article-card h3 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.article-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.recommended button {
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 343px;
+  background: none;
+  border: 1px solid #43d29e;
+  outline: none;
+}
+
+footer {
+  padding: 20px 10px;
+  background-color: #304351;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 84px;
+  }
+
+  .description,
+  .feature-article {
+    width: 100%;
+    max-width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .description h1,
+  .description p {
+    width: 520px;
+  }
+
+  .description p {
+    font-size: 21px;
+  }
+
+  .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article-card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .article-card.desktop {
+    display: flex;
+  }
+
+  .recommended button {
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    font-style: italic;
+    color: #43d29e;
+  }
 }
