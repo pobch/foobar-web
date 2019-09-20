@@ -5,9 +5,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  padding: 5px 10px;
 }
 
 nav {
@@ -41,7 +48,20 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   height: 660px;
-  background-color: lightcoral;
+  background-image: linear-gradient(rgb(185, 185, 185), rgb(185, 185, 185)),
+    url('/images/title.jpg');
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10px 20px;
+}
+
+.description p {
+  font-size: 17px;
+  font-style: italic;
+  color: white;
+  margin: 20px 0;
 }
 
 .feature-article {
@@ -65,7 +85,7 @@ nav {
   width: 62px;
   height: 62px;
   flex: 0 0 auto;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .article-image img {
@@ -77,10 +97,12 @@ nav {
 .category {
   font-size: 14px;
   font-weight: bold;
+  color: #43d29e;
 }
 
 .title-small {
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
+  color: white;
 }
