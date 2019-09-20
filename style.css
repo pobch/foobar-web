@@ -333,6 +333,9 @@ footer {
   }
 
   .card-wrapper {
+    max-width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -353,5 +356,10 @@ footer {
     font-size: 24px;
     font-style: italic;
     color: #43d29e;
+  }
+
+  .footer-wrapper {
+    max-width: 1175px;
+    margin: 0 auto;
   }
 }
