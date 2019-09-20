@@ -23,6 +23,10 @@ header {
   z-index: 99;
 }
 
+header .desktop {
+  display: none;
+}
+
 #menu {
   display: none;
 }
@@ -229,6 +233,79 @@ footer {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 84px;
+  }
+
+  header .mobile {
+    display: none;
+  }
+
+  header .desktop {
+    display: block;
+  }
+
+  header {
+    background: none;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  header .desktop {
+    color: white;
+  }
+
+  header .desktop strong {
+    font-size: 24px;
+  }
+
+  .search-bar {
+    height: 40px;
+    width: 200px;
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #e3e8f0;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .search-bar-btn {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: #43d29e;
+    border: 1px solid #e3e8f0;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  a.sign-in,
+  a.sign-up {
+    display: inline-block;
+    font-style: italic;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+  }
+
+  a.sign-in {
+    color: white;
+    background-color: #43d29e;
+    margin-right: 10px;
+  }
+
+  a.sign-up {
+    color: #bbbbbb;
+    background: none;
+    border: 1px solid #43d29e;
+  }
+
+  .title-section {
+    height: 787px;
   }
 
   .description,

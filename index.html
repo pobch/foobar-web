@@ -10,9 +10,9 @@
     <title>Explore</title>
   </head>
   <body>
-    <!-- Navbar on Mobile -->
     <header>
-      <nav>
+      <!-- Navbar on Mobile -->
+      <nav class="mobile">
         <input type="checkbox" name="menu" id="menu" />
         <label for="menu" class="hamburger"></label>
         <ul>
@@ -25,8 +25,18 @@
           <li class="sign-up">Sign Up</li>
         </ul>
       </nav>
-      <span><strong>Foo Bar</strong></span>
-      <div><i class="fas fa-search"></i></div>
+      <span class="mobile"><strong>Foo Bar</strong></span>
+      <div class="mobile"><i class="fas fa-search"></i></div>
+      <!-- Navbar on Desktop -->
+      <div class="desktop">
+        <strong>Foo Bar</strong>
+        <input type="text" class="search-bar" name="keyword" placeholder="Search..."/><!--  
+        --><button class="search-bar-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="desktop">
+        <a href="#" class="sign-in">Sign In</a>
+        <a href="#" class="sign-up">Sign Up</a>
+      </div>
     </header>
 
     <!-- Title section -->
