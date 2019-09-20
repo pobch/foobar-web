@@ -1,3 +1,4 @@
+/* Mobile layout */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -109,6 +110,11 @@ header .desktop {
   height: 74px;
 }
 
+.article-small + hr {
+  width: 90%;
+  opacity: 0.3;
+}
+
 .article-image {
   width: 62px;
   height: 62px;
@@ -136,7 +142,7 @@ header .desktop {
 }
 
 .recommended {
-  padding: 0 10px 20px;
+  padding: 10px 10px 50px;
 }
 
 .recommended h2 {
@@ -219,11 +225,18 @@ header .desktop {
 }
 
 footer {
-  padding: 20px 10px;
+  padding: 20px 10px 50px;
   background-color: #304351;
   color: #ffffff;
 }
 
+.footer-line {
+  margin: 15px 0;
+  border-color: #a5a4a4;
+  opacity: 0.5;
+}
+
+/* Desktop layout */
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 84px;
@@ -368,5 +381,12 @@ footer {
   .footer-wrapper {
     max-width: 1175px;
     margin: 0 auto;
+  }
+}
+
+/* Fallback case: there would be horizontal scroll when the device screen is below 375px width */
+@media screen and (max-width: 374px) {
+  body {
+    width: 375px;
   }
 }
