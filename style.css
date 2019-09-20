@@ -271,6 +271,19 @@ footer {
     margin-left: 20px;
     color: white;
   }
+  .search-bar::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(185, 185, 185);
+    opacity: 1; /* Firefox */
+  }
+  .search-bar:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(185, 185, 185);
+  }
+  .search-bar::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(185, 185, 185);
+  }
 
   .search-bar-btn {
     color: white;
