@@ -1,4 +1,6 @@
-/* Mobile layout */
+/* ------------------ Mobile layout ---------------------- */
+
+/* Reset browser's default styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +14,7 @@ h1 {
   color: white;
 }
 
+/* Navbar */
 header {
   background-color: white;
   display: flex;
@@ -28,23 +31,23 @@ header .desktop {
   display: none;
 }
 
-#menu {
+input#menu {
   display: none;
 }
 
-.hamburger {
+label.hamburger {
   cursor: pointer;
 }
 
-.hamburger::before {
+label.hamburger::before {
   content: '\2630';
 }
 
-#menu:checked + .hamburger::before {
+input#menu:checked + label.hamburger::before {
   content: '\2715';
 }
 
-#menu ~ ul {
+input#menu ~ ul {
   display: none;
   position: absolute;
   top: 100%;
@@ -55,16 +58,16 @@ header .desktop {
   list-style: none;
 }
 
-#menu:checked ~ ul {
+input#menu:checked ~ ul {
   display: block;
 }
 
-#menu ~ ul li {
+input#menu ~ ul li {
   padding: 10px;
   border-bottom: 1px solid #dfdfdf;
 }
 
-#menu ~ ul li.sign-in {
+input#menu ~ ul li.sign-in {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -74,7 +77,7 @@ header .desktop {
   color: white;
 }
 
-#menu ~ ul li.sign-up {
+input#menu ~ ul li.sign-up {
   margin-bottom: 10px;
   text-align: center;
   border: 1px solid #43d29e;
@@ -82,6 +85,7 @@ header .desktop {
   color: #43d29e;
 }
 
+/* Title section */
 .title-section {
   display: flex;
   flex-direction: column;
@@ -145,6 +149,7 @@ header .desktop {
   color: white;
 }
 
+/* Recommended section */
 .recommended {
   padding: 10px 10px 50px;
 }
@@ -230,6 +235,7 @@ header .desktop {
   outline: none;
 }
 
+/* Footer section */
 footer {
   padding: 20px 10px 50px;
   background-color: #304351;
@@ -242,12 +248,14 @@ footer {
   opacity: 0.5;
 }
 
-/* Desktop layout */
+/* ----------------------- Desktop layout ------------------------------ */
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 84px;
   }
 
+  /* Navbar */
   header .mobile {
     display: none;
   }
@@ -331,6 +339,7 @@ footer {
     border: 1px solid #43d29e;
   }
 
+  /* Title section */
   .title-section {
     height: 787px;
   }
@@ -359,6 +368,7 @@ footer {
     font-size: 21px;
   }
 
+  /* Recommended section */
   .card-wrapper {
     max-width: 1175px;
     margin-left: auto;
@@ -385,13 +395,14 @@ footer {
     color: #43d29e;
   }
 
+  /* Footer section */
   .footer-wrapper {
     max-width: 1175px;
     margin: 0 auto;
   }
 }
 
-/* Fallback case: there would be horizontal scroll when the device screen is below 375px width */
+/* Fallback case: show horizontal scroll bar for the width below 375px */
 @media screen and (max-width: 374px) {
   body {
     width: 375px;

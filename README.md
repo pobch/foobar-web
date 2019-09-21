@@ -21,7 +21,7 @@ Due to my time limitation, I cut some scope down. The following tasks are what I
 The following are tasks that I've done.
 
 1. **Responsive design**: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
-2. **The navbar**
+2. **The navbar**:
 
    ![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout')
 
@@ -37,7 +37,7 @@ The following are tasks that I've done.
 
    ***
 
-3. **The carousel**
+3. **The carousel**:
 
    ![carousel-mobile](docs/carousel-mobile.png 'The carousel on Mobile layout')
 
@@ -55,7 +55,7 @@ The following are tasks that I've done.
 
    ![recommended-menu](docs/recommended-menu.png 'The Recommended menus')
 
-5. **The 'See more recommended articles' button**
+5. **The 'See more recommended articles' button**:
 
    ![recommended-section-mobile](docs/recommended-article-mobile.png 'The Recommended section on Mobile')
 
@@ -76,5 +76,5 @@ The following are tasks that I've done.
 - Most icons come from `Font Awesome`.
 - I used only 1 font family which is `Lato` from `Google Font`.
 - Margins, paddings and font-size may not 100% comply with the design.
-- The minimum screen width support for this page is 375px (iPhone 6/7/8). You may see a horizontal scroll bar for the screen below than that.
+- The minimum screen width support for this page is 375px (iPhone 6/7/8). You may see a horizontal scroll bar on the screen size below than that.
 - The `@media` breakpoint to separate Desktop/Mobile layout is 768px.

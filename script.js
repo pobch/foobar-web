@@ -1,5 +1,6 @@
-// - Fetch more articles when an user clicks 'see more' button on Mobile.
-// - Remove the 'see more' button when an user clicks it on Desktop since there is no article left to display
+// Recommended section:
+// - When an user clicks 'see more' button on Mobile --> Fetch more articles
+// - When an user clicks 'see more' button on Desktop --> Remove the 'see more' button
 const seeMoreBtn = document.querySelector('.seemore-btn')
 seeMoreBtn.onclick = () => {
   const remainCards = Array.from(document.querySelectorAll('.article-card.desktop'))
@@ -9,7 +10,7 @@ seeMoreBtn.onclick = () => {
   seeMoreBtn.remove()
 }
 
-// Switching between categories on 'Recommended' section
+// Switch active category on 'Recommended' section
 const recommendedCategories = Array.from(document.querySelectorAll('.recommended-category span'))
 recommendedCategories.forEach(element => {
   element.onclick = e => {
