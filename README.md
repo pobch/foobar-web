@@ -21,6 +21,8 @@ The following are tasks that I've done.
 
    On Mobile layout, the navbar position is `sticky`. The hamburger menu can be clicked to expand/collapse sub-menus.
 
+   ***
+
    ![navbar-desktop](docs/navbar-desktop.png 'Navbar on Desktop layout')
 
    On Desktop layout, the navebar contains a search bar and buttons.
@@ -31,12 +33,27 @@ The following are tasks that I've done.
 
    On Mobile layout, the carousel displays 4 articles one by one. You can swipe left/right to view another article.
 
+   ***
+
    ![carousel-desktop](docs/carousel-desktop.png 'The carousel on Desktop layout')
 
    On Desktop layout, the carousel displays all 4 articles at once.
 
-- The category tab on 'Recommended' section
-- The 'See more recommended articles'
+4. The 'Recommended' menus: You can click each menu to switch the active style.
+
+   ![recommended-menu](docs/recommended-menu.png 'The Recommended menus')
+
+5. The 'See more recommended articles' button:
+
+   ![recommended-section-mobile](docs/recommended-article-mobile.png 'The Recommended section on Mobile')
+
+   On Mobile, there are initial 3 articles displayed. Then, if you click the 'See more recommended articles' button, there will be other 3 more articles displayed.
+
+   ***
+
+   ![recommended-section-desktop](docs/recommended-article-desktop.png 'The Recommended section on Desktop')
+
+   On Desktop, all 6 articles are initially displayed. If you click the 'See more recommended articles' button, the button will disappear and do nothing.
 
 ## Remark
 
