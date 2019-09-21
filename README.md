@@ -15,13 +15,26 @@ The following are tasks that I've done.
 1. Responsive design: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
 2. The navbar:
 
-![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout') ![navbar-mobile-expanded](docs/navbar-mobile-expanded.png 'Navbar on Mobile layout expanded')
+   ![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout')
 
-On Mobile layout, the navbar position is `sticky`. The hamburger menu can be clicked to expand/collapse sub-menus.
+   ![navbar-mobile-expanded](docs/navbar-mobile-expanded.png 'Navbar on Mobile layout expanded')
 
-3. The hamburger menu on Mobile layout. It can be clicked to expand/collapse the menu.
+   On Mobile layout, the navbar position is `sticky`. The hamburger menu can be clicked to expand/collapse sub-menus.
 
-- The carousel
+   ![navbar-desktop](docs/navbar-desktop.png 'Navbar on Desktop layout')
+
+   On Desktop layout, the navebar contains a search bar and buttons.
+
+3. The carousel:
+
+   ![carousel-mobile](docs/carousel-mobile.png 'The carousel on Mobile layout')
+
+   On Mobile layout, the carousel displays 4 articles one by one. You can swipe left/right to view another article.
+
+   ![carousel-desktop](docs/carousel-desktop.png 'The carousel on Desktop layout')
+
+   On Desktop layout, the carousel displays all 4 articles at once.
+
 - The category tab on 'Recommended' section
 - The 'See more recommended articles'
 
