@@ -1,8 +1,14 @@
+# Oozou Assignment
+
+## Final Result
+
+https://oozou-foobar.netlify.com/
+
 ## The Design
 
 [The project on Figma](https://www.figma.com/file/GWJ8bcmzV83nznFegX3cqG/Javascript-Test?node-id=0%3A1)
 
-## What I did not do regarding to the design
+## Things I did not implement (regarding to the design)
 
 Due to my time limitation, I cut some scope down. The following tasks are what I did not do.
 
