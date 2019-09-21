@@ -32,6 +32,10 @@ header .desktop {
   display: none;
 }
 
+.hamburger {
+  cursor: pointer;
+}
+
 .hamburger::before {
   content: '\2630';
 }
@@ -158,6 +162,7 @@ header .desktop {
 }
 
 .recommended-category span {
+  cursor: pointer;
   padding: 0 10px 5px;
   color: #a1a6bb;
 }
@@ -213,7 +218,8 @@ header .desktop {
   font-size: 11px;
 }
 
-.recommended button {
+.recommended button.seemore-btn {
+  cursor: pointer;
   font-style: italic;
   display: block;
   margin: 0 auto;
@@ -293,6 +299,7 @@ footer {
   }
 
   .search-bar-btn {
+    cursor: pointer;
     color: white;
     height: 40px;
     width: 40px;
@@ -370,8 +377,8 @@ footer {
     display: flex;
   }
 
-  .recommended button {
-    width: 100%;
+  .recommended button.seemore-btn {
+    width: 500px;
     border: none;
     font-size: 24px;
     font-style: italic;
