@@ -14,10 +14,8 @@ Due to my time limitation, I cut some scope down. The following tasks are what I
 
 The following are tasks that I've done.
 
-1. Responsive design: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
-2. The navbar:
-
-   ***
+1. **Responsive design**: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
+2. **The navbar**
 
    ![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout')
 
@@ -33,9 +31,7 @@ The following are tasks that I've done.
 
    ***
 
-3. The carousel:
-
-   ***
+3. **The carousel**
 
    ![carousel-mobile](docs/carousel-mobile.png 'The carousel on Mobile layout')
 
@@ -49,13 +45,11 @@ The following are tasks that I've done.
 
    ***
 
-4. The 'Recommended' menus: You can click each menu to switch the active style.
+4. **The 'Recommended' menus**: You can click each menu to switch the active style.
 
    ![recommended-menu](docs/recommended-menu.png 'The Recommended menus')
 
-5. The 'See more recommended articles' button:
-
-   ***
+5. **The 'See more recommended articles' button**
 
    ![recommended-section-mobile](docs/recommended-article-mobile.png 'The Recommended section on Mobile')
 
