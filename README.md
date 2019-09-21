@@ -1,5 +1,7 @@
 ## The Design
 
+[The project on Figma](https://www.figma.com/file/GWJ8bcmzV83nznFegX3cqG/Javascript-Test?node-id=0%3A1)
+
 ## What I did not do regarding to the design
 
 Due to my time limitation, I cut some scope down. The following tasks are what I did not do.
@@ -15,6 +17,8 @@ The following are tasks that I've done.
 1. Responsive design: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
 2. The navbar:
 
+   ***
+
    ![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout')
 
    ![navbar-mobile-expanded](docs/navbar-mobile-expanded.png 'Navbar on Mobile layout expanded')
@@ -27,7 +31,11 @@ The following are tasks that I've done.
 
    On Desktop layout, the navebar contains a search bar and buttons.
 
+   ***
+
 3. The carousel:
+
+   ***
 
    ![carousel-mobile](docs/carousel-mobile.png 'The carousel on Mobile layout')
 
@@ -39,11 +47,15 @@ The following are tasks that I've done.
 
    On Desktop layout, the carousel displays all 4 articles at once.
 
+   ***
+
 4. The 'Recommended' menus: You can click each menu to switch the active style.
 
    ![recommended-menu](docs/recommended-menu.png 'The Recommended menus')
 
 5. The 'See more recommended articles' button:
+
+   ***
 
    ![recommended-section-mobile](docs/recommended-article-mobile.png 'The Recommended section on Mobile')
 
@@ -55,15 +67,14 @@ The following are tasks that I've done.
 
    On Desktop, all 6 articles are initially displayed. If you click the 'See more recommended articles' button, the button will disappear and do nothing.
 
+   ***
+
 ## Remark
 
-- Pure JavaScript and CSS
-
-minimum width support: 375px (iPhone 6/7/8)
-breakpoint: 768px
-
-TODO:
-
-- cursor : pointer
-- write comments
-- write README
+- The whole web page was done by pure JavaScript and CSS except the carousel part.
+- I used `Glide.js`, a tiny library, to implement the carousel part.
+- Most icons come from `Font Awesome`.
+- I used only 1 font family which is `Lato` from `Google Font`.
+- Margins, paddings and font-size may not 100% comply with the design.
+- The minimum screen width support for this page is 375px (iPhone 6/7/8). You may see a horizontal scroll bar for the screen below than that.
+- The `@media` breakpoint to separate Desktop/Mobile layout is 768px.
