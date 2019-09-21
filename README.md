@@ -13,9 +13,11 @@ Due to my time limitation, I cut some scope down. The following tasks are what I
 The following are tasks that I've done.
 
 1. Responsive design: There are 2 layouts supported, Desktop layout and Mobile layout. The breakpoint is 768px screen width. Any device which has its screen width below 768px is considered as a Mobile, otherwise it is considered as a Desktop.
-2. The navbar: ![navbar-mobile](docs/navbar-mobile.png)
+2. The navbar:
+   ![navbar-mobile](docs/navbar-mobile.png 'Navbar on Mobile layout')
 
-- The hamburger menu on Mobile layout. It can be clicked to expand/collapse the menu.
+3. The hamburger menu on Mobile layout. It can be clicked to expand/collapse the menu.
+
 - The carousel
 - The category tab on 'Recommended' section
 - The 'See more recommended articles'
