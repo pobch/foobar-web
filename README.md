@@ -4,6 +4,10 @@
 
 https://oozou-foobar.netlify.com/
 
+LightHouse score on 'slow 4G' and '4x CPU slow down':
+
+![lighthouse-score](docs/pagespeed.png 'LightHouse score on Slow 4G and 4x CPU slow down')
+
 ## The Design
 
 [The project on Figma](https://www.figma.com/file/GWJ8bcmzV83nznFegX3cqG/Javascript-Test?node-id=0%3A1)
