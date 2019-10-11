@@ -1,6 +1,6 @@
-# Oozou Assignment
+# FooBar Web
 
-## Final Result
+## Result
 
 https://oozou-foobar.netlify.com/
 

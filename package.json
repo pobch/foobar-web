@@ -1,5 +1,5 @@
 {
-  "name": "oozou-assignment",
+  "name": "foobar-web",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pobch/oozou-assignment.git"
+    "url": "git+https://github.com/pobch/foobar-web.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pobch/oozou-assignment/issues"
+    "url": "https://github.com/pobch/foobar-web/issues"
   },
-  "homepage": "https://github.com/pobch/oozou-assignment#readme",
+  "homepage": "https://github.com/pobch/foobar-web#readme",
   "dependencies": {
     "@glidejs/glide": "^3.4.0"
   }
